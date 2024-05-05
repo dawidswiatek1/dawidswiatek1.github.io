@@ -40,6 +40,6 @@ function prevSlide() {
     showSlide(currentSlideIndex);
 }
 
-setInterval(nextSlide, 4000); // Automatyczne przesuwanie slajdów co 1 sekundę
+setInterval(nextSlide, 4000);
 
-showSlide(currentSlideIndex); // Pokaż pierwszy slajd po załadowaniu strony
+showSlide(currentSlideIndex);
