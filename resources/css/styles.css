@@ -104,7 +104,7 @@ nav ul {
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Zapobiega poziomemu przewijaniu */
+  overflow-x: hidden;
 }
 
 .slideshow {
@@ -115,8 +115,8 @@ body {
 .slideshow img {
   width: 100%;
   display: block;
-  object-fit: cover; /* Przycina obrazy do przypisanego obszaru */
-  max-height: 800px; /* Maksymalna wysokość obrazu */
+  object-fit: cover;
+  max-height: 800px;
 }
 
 .container {
@@ -135,9 +135,9 @@ body {
   transition: background-color 0.3s ease;
   cursor: pointer;
   position: absolute;
-  bottom: 10px; /* Odległość od dołu */
-  left: 50%; /* Pozycja na środku */
-  transform: translateX(-50%); /* Wyśrodkowanie */
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .active-dot {
