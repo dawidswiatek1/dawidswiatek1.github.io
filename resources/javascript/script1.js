@@ -10,7 +10,7 @@ const images = [
 let currentSlideIndex = 0;
 
     function showSlide(index) {
-        const imageUrl = `../sara_swiatek_bialek/resources/images/${images[index]}`;
+        const imageUrl = `../resources/images/${images[index]}`;
         document.body.style.backgroundImage = `url('${imageUrl}')`;
         currentSlideIndex = index;
         updateSlideDots();
