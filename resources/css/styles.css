@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #FDFAFA;
@@ -42,12 +41,13 @@ header {
   justify-content: space-between;
   position: fixed;
   z-index: 9999;
+  background-color: rgb(181, 193, 142);
 }
 
 .navbar .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: "Roboto";
+  font-family: "Allura";
   letter-spacing: 0.8px;
   padding-left: 20px;
   color: black;
@@ -59,7 +59,7 @@ header {
 }
 
 .navbar li {
-  font-family: "Roboto";
+  font-family: "Allura";
   font-weight: bold;
 }
 
@@ -121,6 +121,7 @@ header {
   text-align: center;
   width: 90%;
   margin: 50px auto;
+  font-family: "Allura";
 }
 
 
