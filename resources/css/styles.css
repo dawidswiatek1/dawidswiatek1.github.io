@@ -17,7 +17,7 @@ body {
 
 .links a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .links a:hover {
@@ -50,7 +50,7 @@ header {
   font-family: "Allura";
   letter-spacing: 0.8px;
   padding-left: 20px;
-  color: black;
+  color: white;
 }
 
 .navbar .links {
@@ -66,7 +66,7 @@ header {
 .socials a {
   margin: 10px;
   font-size: 1.5rem;
-  color: black;
+  color: white;
   padding-right: 20px;
 }
 
